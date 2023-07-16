@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>new web</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        .div{
+            width:100%;
+            height: 750px;
+            background-image: radial-gradient(rgba(18, 13, 13, 0.1), rgba(9, 6, 6, 0.9)) ,url("https://cdn.nimbusthemes.com/2017/09/09233338/Free-Nature-Backgrounds-Sunset-by-Pixabay.jpg");
+            background-size: cover;
+        }
+    
+        /*.div2{
+            width: 100%;
+            height: 400px;
+            background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(200, 255, 0)),url("https://images.unsplash.com/photo-1483232539664-d89822fb5d3e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGhvdG8lMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+            background-size: cover; */
+            
+        .h1{
+            padding-top: 20px;
+            margin-left: 120px;
+            color: white;
+            font-size: 50px;
+        }
+        .img{
+            padding-top: 300px ;
+            padding-left: 100px;
+            float: left;
+            
+        }
+        
+        .button{
+             margin-top: 10px;
+             margin-left: 200px;
+             width: 45px;
+             border: 3px solid silver;
+             border-radius: 5px;
+             background-color: beige;
+        }
+        .button:hover{
+            box-shadow: 5px 5px rgba(143, 249, 36, 0.5),
+                        7px 7px rgba(6, 31, 220, 0.886);
+            transition: 0.5s;
+        }
+        .form{
+            width:100px; height: 120px; margin-left: 110px; padding-right: 70px; padding-left: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div">
+        <marquee scrollamount="10" direction="left" >
+            <img src="https://i.pinimg.com/originals/5d/e3/03/5de303950e41d173820c0b6cebae7359.gif" class="img" alt="me" width="90" />
+            </marquee>
+        <h1 class="h1">Exploring the<br>Nature</h1>
+
+        <form  method="get">
+          <fieldset class="form"> 
+             <legend  align="center" style="color: blanchedalmond; ">Login Form</legend> 
+                <table>
+                    <tr>
+                        <td><label>Name</label></td>
+                        <td> : <input type="text" placeholder="Username" name="fname" required="required"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Password</label></td>
+                        <td> : <input type="password" placeholder="Password" required="required"></td>
+                    </tr>
+                   
+                </table>
+                  <p class="button"><input type="submit"></p>
+            </fieldset>
+         </form>
+
+        
+    </div>
+</body>
+</html>
+
